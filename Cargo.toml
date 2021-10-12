@@ -1,0 +1,20 @@
+[package]
+name = "play"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glib = "0.14.8"
+gst = {version = "0.17", package = "gstreamer"}
+gst_app = {version = "0.17", package = "gstreamer-app"}
+gst_base = {version = "0.17", package = "gstreamer-base"}
+gst_pbutils = {version = "0.17", package = "gstreamer-pbutils"}
+gst_sys = {version = "0.17", package = "gstreamer-sys"}
+gst_video = {version = "0.17", package = "gstreamer-video"}
+gtk = {package = "gtk4", version = "0.2"}
+once_cell = "1.8"
+
+[[bin]]
+name = "messages"
